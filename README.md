@@ -6,7 +6,7 @@
 <h3 align="center">🍵 Animal Crossing Fish API</h3>
 
   <p align="center">
-    An application to serve as the backend for <a href="https://github.com/Kanderson58/animal-crossing">Animal Crossing</a>.
+    An application to serve as the backend service for <a href="https://github.com/Kanderson58/animal-crossing">Animal Crossing</a>.
   </p>
   <p>
     Built as a service that makes API calls to <a href="https://acnhapi.com/">Animal Crossing: New Horizons API</a>
