@@ -8,6 +8,9 @@
   <p align="center">
     An application to serve as the backend for <a href="https://github.com/Kanderson58/animal-crossing">Animal Crossing</a>.
   </p>
+  <p>
+    Built as a service that makes API calls to <a href="https://acnhapi.com/">Animal Crossing: New Horizons API</a>
+  </p>
 </div>
 
 
@@ -133,7 +136,7 @@ Body: <br>
 
 | Code | Description |
 | :--- | :--- |
-| 201 | `Created` |
+| 200 | `OK` |
 
 Response:
 
