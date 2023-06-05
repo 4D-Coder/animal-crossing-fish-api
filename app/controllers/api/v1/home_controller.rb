@@ -1,6 +1,7 @@
 class Api::V1::HomeController < ApplicationController
   def music
-    song = SongFacade.new(params['weather'])
-    render json: SongSerializer.new(song).serializable_hash
+    facade = SongFacade.new(params['weather'])
+    song = facade.song_for_the_hour
+    render json: SongSerializer.new(song).serializable_hash, status: 200
   end
 end
