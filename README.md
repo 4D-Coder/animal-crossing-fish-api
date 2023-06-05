@@ -91,7 +91,7 @@ To run the application locally, this repository will need to be cloned and set u
    ```bash
    rails db:create
    ```
-   - if you do not see `Created database 'animal_crossing_fish_api_development'` Run:
+   If you do not see `Created database 'animal_crossing_fish_api_development'` Run:
    ```bash
    RAILS_ENV=development rails db:create
    ```
@@ -101,9 +101,9 @@ To run the application locally, this repository will need to be cloned and set u
    rails db:migrate
    ```
 5. To boot up localhost (default is port 3000), run:
-  ```bash
-  rails s
-  ```
+    ```bash
+    rails s
+    ```
 <br>
 
   Inspect the `/db/schema.rb` and compare to the 'Schema' section below to ensure this migration has been done successfully.
