@@ -134,10 +134,6 @@ Body: <br>
 }
 ```
 
-| Code | Description |
-| :--- | :--- |
-| 200 | `OK` |
-
 Response:
 
 ```json
@@ -155,8 +151,13 @@ Response:
   }
 }
 ```
+| Code | Description |
+| :--- | :--- |
+| 200 | `OK` |
+
 Notes:
 - Will match the song's hour attribute based on the Time.now API's current hour
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
