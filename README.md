@@ -122,7 +122,7 @@ To run the application locally, this repository will need to be cloned and set u
 ## Update Homepage's Song (Happy Path)
 
 ```http
-PUT '/api/v1/music'
+PUT /api/v1/music
 ```
 
 <br>
