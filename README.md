@@ -100,7 +100,7 @@ To run the application locally, this repository will need to be cloned and set u
    ```bash
    rails db:migrate
    ```
-5. To boot up localhost (default is port 3000), run:
+5. To boot up localhost [default port: 3000], run:
     ```bash
     rails s
     ```
