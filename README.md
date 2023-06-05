@@ -120,7 +120,7 @@ To run the application locally, this repository will need to be cloned and set u
 <br>
 
 ## Update Homepage's Song (Happy Path)
-
+Request URI: <br>
 ```http
 PUT /api/v1/music
 ```
